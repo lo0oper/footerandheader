@@ -1,0 +1,86 @@
+*{
+    margin:0;
+    border:0;
+    box-sizing: border-box;
+}
+body,html{
+    font-family: cursive,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color:whitesmoke;
+    background-image:url("image.jpg");
+    background-size:cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    display: flex;
+    flex-direction:column;
+    flex-wrap: wrap;
+}
+img{
+
+    background-size: contain;
+}
+.nav{
+    font-size: large;
+    background-color: black;
+    color: aliceblue;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    display: flex;
+    flex-wrap:wrap;
+    align-items: top;       
+}
+.nav-title{
+    width:30%;
+    background-color:rgb(0, 0, 0);
+}
+.nav-menu{
+
+    width:70%;
+}
+.nav-menu ul{
+    display: flex;
+    justify-content: flex-end;
+}
+.nav-menu ul li{
+    padding: 10px;
+    list-style: none;
+}
+.nav-menu ul li:hover{
+    background-color: dimgrey;
+    cursor: pointer;
+
+
+}
+footer{
+    display: flex;
+    justify-items:center;
+    height:80px;
+    width: 100vw;
+ }
+.footerheading{
+   background-image: url("minions.jpg");
+    background-size: contain;
+    background-repeat: no-repeat; 
+    font-size: x-large;
+    text-align: center;
+    text-justify:distribute-all-lines;
+    width:100%;
+    background-color:darkslategray ;
+    height:80px;
+    padding: top 20;
+     
+}
+.footer-menu ul{
+    background-color:darkslategray ;
+    height: 80px;
+    width:100%;
+    list-style: none;
+    display: flex;
+    font-size: large;
+    align-content:space-around; 
+    flex-direction: column;
+    justify-content: flex-start;
+
+}
+.middle{
+    flex:1;
+}

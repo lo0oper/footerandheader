@@ -1,0 +1,35 @@
+*{
+    margin: 0px;
+    box-sizing: border-box;
+    padding:0px;
+}
+body{
+    display: flex;
+    background-color: aquamarine;
+       
+    height:100vh;
+    flex-direction: column;
+}
+header{
+    
+    font-size: 50px;
+    padding: 5px;
+    height: 70px;
+    text-align: center;
+    background-color: cornflowerblue;
+    
+}
+footer{
+    padding: 5px;
+    text-align: center;
+    font-size: 50px;
+    height: 80px;
+    background-color:darkolivegreen;
+    color: aliceblue;
+
+    
+}
+.middle
+{   
+    flex:1;
+}
